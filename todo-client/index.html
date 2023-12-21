@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- 
+      app.put('/todo/:id', (req, res) => {
+  const { id } = req.params;
+  const query = 'UPDATE todos SET status = "complete" WHERE id = ?';
+  db.query(query, [id], (err, result) => {
+    if (err) throw err;
+    res.json(result);
+  });
+});
+
+app.post('/todo', (req, res) => {
+  const { name, status, description } = req.body;
+  const query = 'INSERT INTO todos (name, status, description) VALUES (?, ?, ?)';
+  db.query(query, [name, status, description], (err, result) => {
+    if (err) throw err;
+    res.json(result);
+  });
+});
+     -->
+  </body>
+</html>
